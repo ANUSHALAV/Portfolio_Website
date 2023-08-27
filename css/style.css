@@ -1,0 +1,16 @@
+
+/* utility css start here.. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+}
+:root{
+    --primary-text-color:#000;
+    --secondary-text-color:#fff;
+    --primary-bg-color:red;
+    --secondary-bg-color:blue;
+}
