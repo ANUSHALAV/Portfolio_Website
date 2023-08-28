@@ -8,9 +8,41 @@
 body{
     width:100%;
 }
+h2{
+    font-size:3rem;
+}
+
 :root{
     --primary-text-color:#000;
     --secondary-text-color:#fff;
     --primary-bg-color:red;
     --secondary-bg-color:blue;
+}
+
+
+
+
+
+/* hero-section start here.. */
+.hero-section{
+    background-color:#000;
+    /* background-image: url('/images/download.svg'); */
+    background-repeat: no-repeat;
+}
+.hero-section .container .row{
+   
+    height:50vh;
+    
+}
+
+
+
+
+
+
+/* thought-section */
+.thought-section{
+    background-image: url('/images/photo-1576269483449-3b694997b362.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
