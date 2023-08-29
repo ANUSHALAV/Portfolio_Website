@@ -21,7 +21,17 @@ h2{
 
 
 
-
+/* header-section */
+nav{
+    background-color:#000;
+}
+.container .logo{
+    color:#fff;
+    font-size:2rem;
+}
+.container .navbar-nav .nav-item a{
+    color:#fff;
+}
 
 /* hero-section start here.. */
 .hero-section{
@@ -30,9 +40,7 @@ h2{
     background-repeat: no-repeat;
 }
 .hero-section .container .row{
-   
-    height:50vh;
-    
+   height:80vh;
 }
 
 
@@ -45,4 +53,19 @@ h2{
     background-image: url('/images/photo-1576269483449-3b694997b362.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.thought-section .container div div{
+    color:#fff;
+}
+
+
+
+
+
+
+/* education-section */
+.education-section .container {
+    text-transform: capitalize;
 }
