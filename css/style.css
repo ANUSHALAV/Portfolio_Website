@@ -1,93 +1,113 @@
-
 /* utility css start here.. */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width:100%;
+
+body {
+    width: 100%;
 }
-h2{
-    font-size:3rem;
+
+h2 {
+    font-size: 3rem;
     text-transform: capitalize;
     display: inline-block;
 }
 
-:root{
-    --primary-text-color:#000;
-    --secondary-text-color:#fff;
-    --primary-bg-color:red;
-    --secondary-bg-color:blue;
+h3 {
+    font-weight: normal;/
 }
+
+:root {
+    --primary-text-color: #000;
+    --secondary-text-color: #fff;
+    --primary-bg-color: red;
+    --secondary-bg-color: blue;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #999;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
 
 
 
 /* header-section */
-nav{
-    background-color:#000;
+nav {
+    background-color: #fff;
+    box-shadow: 0 0 20px #000;
     text-transform: capitalize;
-    /* border:2px solid red; */
-    height:12vh;
+    height: 13vh;
 }
-.container .logo{
-    color:#fff;
-    font-size:2rem;
+
+.container .navbar-nav .nav-item a {
+    color: #000;
+    font-size: 1.3rem;
 }
-.container .navbar-nav .nav-item a{
-    color:#fff;
-    font-size:1.3rem;
-}
+
 
 
 
 
 /* hero-section start here.. */
-.hero-section{
-    background-color:#000;
-    /* background-image: url('/images/download.svg'); */
+.hero-section {
+    background-image: url('/images/body-bg.png.webp');
     background-repeat: no-repeat;
 }
-.hero-section .container .row{
-   height:80vh;
-   color:#fff;
+
+.hero-section .container .row {
+    height: 120vh;
+    color: #0f0606;
 
 }
+
 
 
 
 /* social-section */
-.social-section{
-    height:20vh;
-    position:fixed;
-    top:250px;
-    left:5px;
-    color:#292828;
-}
-.social-section i{
-    margin-block:35px;
-    cursor: pointer;
-    transition:.3s;
+.social-section {
+    height: 20vh;
+    position: fixed;
+    top: 250px;
+    left: 5px;
+    color: #292828;
 }
 
-.social-section i:hover{
-    color:rgb(245, 9, 230);
+.social-section i {
+    margin-block: 35px;
+    cursor: pointer;
+    transition: .3s;
 }
+
+.social-section i:hover {
+    color: rgb(98, 100, 219);
+}
+
 
 
 
 
 
 /* thought-section */
-.thought-section{
+.thought-section {
     background-image: url('/images/photo-1576269483449-3b694997b362.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
-.thought-section .container div div{
-    color:#fff;
+
+.thought-section .container div div {
+    color: #fff;
 }
 
 
@@ -98,5 +118,5 @@ nav{
 /* education-section */
 .education-section .container-fluid {
     text-transform: capitalize;
-    color:#fff;
+    color: #fff;
 }
