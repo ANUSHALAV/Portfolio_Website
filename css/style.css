@@ -26,6 +26,9 @@ h2{
 /* header-section */
 nav{
     background-color:#000;
+    text-transform: capitalize;
+    /* border:2px solid red; */
+    height:12vh;
 }
 .container .logo{
     color:#fff;
@@ -33,7 +36,11 @@ nav{
 }
 .container .navbar-nav .nav-item a{
     color:#fff;
+    font-size:1.3rem;
 }
+
+
+
 
 /* hero-section start here.. */
 .hero-section{
@@ -43,8 +50,29 @@ nav{
 }
 .hero-section .container .row{
    height:80vh;
+   color:#fff;
+
 }
 
+
+
+/* social-section */
+.social-section{
+    height:20vh;
+    position:fixed;
+    top:250px;
+    left:5px;
+    color:#292828;
+}
+.social-section i{
+    margin-block:35px;
+    cursor: pointer;
+    transition:.3s;
+}
+
+.social-section i:hover{
+    color:rgb(245, 9, 230);
+}
 
 
 
@@ -68,6 +96,7 @@ nav{
 
 
 /* education-section */
-.education-section .container {
+.education-section .container-fluid {
     text-transform: capitalize;
+    color:#fff;
 }
