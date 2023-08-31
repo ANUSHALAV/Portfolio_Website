@@ -1,12 +1,16 @@
 /* utility css start here.. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     width: 100%;
+
 }
 
 h2 {
@@ -16,15 +20,10 @@ h2 {
 }
 
 h3 {
-    font-weight: normal;/
+    font-size:1.5rem;
+    font-weight: normal;
 }
 
-:root {
-    --primary-text-color: #000;
-    --secondary-text-color: #fff;
-    --primary-bg-color: red;
-    --secondary-bg-color: blue;
-}
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -46,12 +45,12 @@ nav {
     background-color: #fff;
     box-shadow: 0 0 20px #000;
     text-transform: capitalize;
-    height: 13vh;
+    height:9vh;
 }
 
 .container .navbar-nav .nav-item a {
     color: #000;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 
@@ -99,9 +98,12 @@ nav {
 
 /* thought-section */
 .thought-section {
+    height:50vh;
     background-image: url('/images/photo-1576269483449-3b694997b362.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-blend-mode:hard-light;
+    background-color: #00000071;
     background-size: cover;
     background-position: center;
 }
@@ -119,4 +121,36 @@ nav {
 .education-section .container-fluid {
     text-transform: capitalize;
     color: #fff;
+}
+
+
+
+
+/* contect-section */
+.contect-section{
+    height:50vh; 
+}
+form input{
+    padding:7px 5px;
+    border:none;
+    border-bottom: 2px solid #000;
+    display: block;
+    outline:none;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    width:50%;
+    /* pointer-events: none; */
+}
+
+
+
+/* footer-section */
+.footer-section{
+    background-image: url('/images/footer_wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30vh;
+    display:flex;
+    align-items: center;
+    color:#fff;
 }

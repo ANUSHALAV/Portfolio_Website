@@ -24,7 +24,7 @@
         <!-- header-section -->
         <nav class="navbar navbar-expand-lg position-fixed t-0 w-100">
             <div class="container">
-                <img src="images/logo.png" alt="" width="250px">
+                <img src="images/logo.png" alt="" width="150px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -36,16 +36,16 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">about</a>
+                            <a class="nav-link active" aria-current="page" href="#about-section">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">education</a>
+                            <a class="nav-link active" href="#education-section">education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">project</a>
+                            <a class="nav-link active" aria-current="page" href="#project-section">project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">contect</a>
+                            <a class="nav-link active" aria-current="page" href="#contect-section">contect</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active btn btn-danger px-5 " aria-current="page" href="#">resume</a>
@@ -58,7 +58,7 @@
 
 
         <!-- hero-section -->
-        <section class="hero-section">
+        <section class="hero-section" id="hero-section">
             <div class="container">
                 <div class="row d-flex align-items-center ">
                     <div class="col-6 px-5 ps-5">
@@ -92,7 +92,7 @@
     <main>
 
         <!-- about-section -->
-        <section class="about-section mb-5">
+        <section class="about-section mb-5" id="about-section">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -111,10 +111,13 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-5">
+                    <div class="col-8">
                         <img src="images/html5.svg" alt="">
                         <img src="images/css3.svg" alt="">
                         <img src="images/javascript.svg" alt="">
+                        <img src="images/download.png" alt="" width="150px">
+                        <img src="images/mysql.png" alt="" width="100px">
+                        <img src="images/bootstrao.png" alt="" width="150px">
                         <img src="images/git.svg" alt="">
                     </div>
                 </div>
@@ -125,13 +128,14 @@
 
 
         <!-- thought-section-->
-        <section class="thought-section p-4">
+        <section class="thought-section">
             <div class="container">
-                <div class="row">
+                <div class="row  py-5">
                     <div class="col-12 text-center fs-2 ">
                         <i class="fa-solid fa-star fa-2xl mb-5" style="color: #ffffff;"></i>
                         <p> When meditation is mastered, the mind is unwavering like the flame of a lamp in a windless
                             place.</p>
+                        <p>....Bhagwat geeta</p>
                     </div>
                 </div>
             </div>
@@ -141,7 +145,7 @@
 
 
         <!-- education-section -->
-        <section class="education-section mb-5">
+        <section class="education-section mb-5" id="education-section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-7 py-5 px-5" style="background-color:#374151;">
@@ -175,7 +179,7 @@
 
 
         <!-- project-section-->
-        <section class="project-section mb-5">
+        <section class="project-section mb-5" id="project-section">
             <div class="container">
                 <div class="row text-center my-5">
                     <div class="col-12">
@@ -185,7 +189,7 @@
 
                 <div class="row align-items-center pb-3">
                     <div class="col-5 image">
-                        <img src="/images/photo-1576269483449-3b694997b362.avif" alt="" class="w-100">
+                        <img src="images/photo-1576269483449-3b694997b362.avif" alt="" class="w-100">
                     </div>
                     <div class="col-5 about-project">
                         <h3>Ener Gym</h3>
@@ -241,23 +245,19 @@
 
 
         <!-- contect-section -->
-        <section class="contect-section mb-5">
-            <div class="container">
+        <section class="contect-section mb-5" id="contect-section">
+            <div class="container border border-danger border-5 px-5">
                 <div class="row ">
-                    <div class="col-12">
+                    <div class="col-12 text-center my-4">
                         <h2>contect section</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-8">
-                        <form action="">
-                            <input type="text" placeholder="enter the name">
-                            <input type="email" placeholder="enter the email addres">
-                            <input type="button" value="submit">
-                        </form>
-                    </div>
-                    <div class="col-4"></div>
-                </div>
+                <form action="">
+                    <input type="text" placeholder="enter the name" name="nameField">
+                    <input type="email" placeholder="enter the email addres" name="emailField">
+                    <input type="tel" placeholder="enter the phone number" name="phoneField">
+                    <input type="submit" value="submit" class="btn btn-primary">
+                </form>
             </div>
         </section>
     </main>
@@ -268,7 +268,7 @@
         <section class="footer-section">
             <div class="container">
                 <div class="row">
-                    <p>Copy Right 2023</p>
+                    <p class="fs-5 mt-5 pt-5">Copyright &#169 2023 | Anushalav(anu)</p>
                 </div>
             </div>
         </section>
