@@ -24,9 +24,26 @@ h3 {
     font-weight: normal;
 }
 
+.main-btn{
+    padding:8px 40px;
+    border:2px solid #5151e1;
+    background-color:#5151e1;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    text-transform: capitalize;
+    transition: .2s;
+}
+
+.main-btn:hover{
+    color:#000;
+    border:2px solid #5151e1;
+    background-color: #fff;
+}
+
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width:6px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -48,9 +65,14 @@ nav {
     height:9vh;
 }
 
-.container .navbar-nav .nav-item a {
+.container .navbar-nav .nav-item a{
     color: #000;
     font-size: 1.1rem;
+    font-weight: bold;
+    transition: .3s;
+}
+.container .navbar-nav .nav-item a:hover{
+    color:#3535e9;
 }
 
 
@@ -88,7 +110,7 @@ nav {
 }
 
 .social-section i:hover {
-    color: rgb(98, 100, 219);
+    color: #5151e1;
 }
 
 
