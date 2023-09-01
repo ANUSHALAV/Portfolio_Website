@@ -10,6 +10,7 @@
 
 body {
     width: 100%;
+    background-color:#f6f6f6;
 
 }
 
@@ -100,28 +101,36 @@ nav {
     position: fixed;
     top: 250px;
     left: 5px;
-    color: #292828;
 }
 
 .social-section i {
     margin-block: 35px;
     cursor: pointer;
     transition: .3s;
+    color: #0f0f0f;
+}
+.social-section .fa-linkedin:hover{
+    color:#5151e1;
+}
+.social-section .fa-github:hover{
+    color:#000;
+}
+.social-section .fa-whatsapp:hover{
+    color:rgb(42, 158, 42);
 }
 
-.social-section i:hover {
-    color: #5151e1;
+
+
+/* about-section */
+.about-section .container{
+    background-color:#fff;
 }
-
-
-
-
 
 
 /* thought-section */
 .thought-section {
     height:50vh;
-    background-image: url('/images/photo-1576269483449-3b694997b362.avif');
+    background-image: url('../images/photo-1576269483449-3b694997b362.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode:hard-light;
@@ -161,6 +170,7 @@ form input{
     text-transform: capitalize;
     margin-bottom: 25px;
     width:50%;
+    background-color:#f6f6f6;
     /* pointer-events: none; */
 }
 
@@ -168,7 +178,7 @@ form input{
 
 /* footer-section */
 .footer-section{
-    background-image: url('/images/footer_wave.svg');
+    background-image: url('../images/footer_wave.svg');
     background-repeat: no-repeat;
     background-size: cover;
     height:30vh;
