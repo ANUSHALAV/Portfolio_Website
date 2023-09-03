@@ -63,7 +63,7 @@ nav {
     background-color: #fff;
     box-shadow: 0 0 20px #000;
     text-transform: capitalize;
-    height: 9vh;
+    height: fit-content;    
 }
 
 .container .navbar-nav .nav-item a {
@@ -88,11 +88,15 @@ nav {
 }
 
 .hero-section .container .row {
-    height: 120vh;
+    height:fit-content;
+    padding-block:30px;
     color: #0f0606;
 
 }
 
+.hero-section .container .row span{
+    font-size:4rem;
+}
 
 
 
@@ -133,7 +137,7 @@ nav {
 
 /* thought-section */
 .thought-section {
-    height: 50vh;
+    height:fit-content;
     background-image: url('../images/photo-1576269483449-3b694997b362.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -163,7 +167,7 @@ nav {
 
 /* contect-section */
 .contect-section {
-    height: 50vh;
+    height:fit-content;
 }
 
 form input {
@@ -185,7 +189,7 @@ form input {
     background-image: url('../images/footer_wave.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height:50vh;
     display: flex;
     align-items: center;
     color: #fff;

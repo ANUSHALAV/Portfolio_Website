@@ -1,0 +1,13 @@
+
+
+/* media query start here.... */
+
+@media screen and (max-width:767px){
+
+    .social-section {
+        height: 20vh;
+        position: fixed;
+        top: 250px;
+        left: 515px;
+    }
+}
