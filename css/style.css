@@ -26,6 +26,7 @@ h3 {
 }
 a{
     text-decoration: none;
+    display:inline-block;
 }
 
 .main-btn {
