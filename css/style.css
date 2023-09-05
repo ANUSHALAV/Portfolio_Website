@@ -24,6 +24,9 @@ h3 {
     font-size: 1.5rem;
     font-weight: normal;
 }
+a{
+    text-decoration: none;
+}
 
 .main-btn {
     padding: 8px 40px;
