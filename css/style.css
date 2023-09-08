@@ -108,12 +108,12 @@ nav {
 .social-section {
     height: 20vh;
     position: fixed;
-    top: 420px;
+    top: 390px;
     left: 5px;
 }
 
 .social-section i {
-    margin-block: 35px;
+    margin-block: 25px;
     cursor: pointer;
     transition: .3s;
     color: #0f0f0f;
