@@ -24,9 +24,10 @@ h3 {
     font-size: 1.5rem;
     font-weight: normal;
 }
-a{
+
+a {
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
 }
 
 .main-btn {
@@ -67,7 +68,7 @@ nav {
     background-color: #fff;
     box-shadow: 0 0 20px #000;
     text-transform: capitalize;
-    height: fit-content;    
+    height: fit-content;
 }
 
 .container .navbar-nav .nav-item a {
@@ -92,14 +93,14 @@ nav {
 }
 
 .hero-section .container .row {
-    height:fit-content;
-    padding-block:30px;
+    height: fit-content;
+    padding-block: 30px;
     color: #0f0606;
 
 }
 
-.hero-section .container .row span{
-    font-size:4rem;
+.hero-section .container .row span {
+    font-size: 4rem;
 }
 
 
@@ -141,7 +142,7 @@ nav {
 
 /* thought-section */
 .thought-section {
-    height:fit-content;
+    height: fit-content;
     background-image: url('../images/photo-1576269483449-3b694997b362.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -171,7 +172,7 @@ nav {
 
 /* contect-section */
 .contect-section {
-    height:fit-content;
+    height: fit-content;
 }
 
 form input {
@@ -193,7 +194,7 @@ form input {
     background-image: url('../images/footer_wave.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height:50vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     color: #fff;
